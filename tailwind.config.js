@@ -10,9 +10,6 @@ module.exports = {
       backgroundImage: {
         'bgHeaderDesktop': "url('./images/bg-header-desktop.png')",
         'bgHeaderMobile': "url('./images/bg-header-mobile.png')",
-        'imageComputer': "url('./images/image-computer.png')",
-        'imageDevices': "url('./images/image-devices.png')",
-        'logo': "url('./images/logo.svg')",
       },
       colors: {
         'StrongCyan': '#26baa4',
