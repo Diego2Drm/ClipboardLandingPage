@@ -20,14 +20,7 @@
 
   <title>Frontend Mentor | Clipboard landing page</title>
   <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
   </style>
 </head>
 
@@ -50,11 +43,11 @@
     </p>
 
     <div class="flex flex-col md:flex-row md:gap-x-5">
-      <a href="#" class="bg-StrongCyan text-white text-lg text-center w-80 p-3 rounded-3xl my-3 shadow-lg shadow-[#26baa4] border-b-2 border-[#2f9683]">Download for iOS</a>
+      <a href="#" class="bg-StrongCyan text-white text-lg text-center w-80 p-3 rounded-3xl my-3 shadow-lg shadow-[#26baa4] border-b-2 border-[#2f9683] hover:bg-[#5dcbb8]">Download for iOS</a>
       
 
       <a href="#" class="bg-LightBlue text-white text-lg text-center w-80 p-3 
-      rounded-3xl my-3 shadow-lg shadow-[#6173ff] border-b-2 border-[#5b65bd]">Download for Mac</a>
+      rounded-3xl my-3 shadow-lg shadow-[#6173ff] border-b-2 border-[#5b65bd] hover:bg-[#8896fd]">Download for Mac</a>
     </div>
 
   </header>
@@ -176,38 +169,40 @@
       </p>
 
       <div class="w-full flex flex-col items-center mt-8 lg:flex-row lg:justify-center lg:space-x-5">
-        <a href="#" class="bg-StrongCyan text-white text-lg text-center w-80 p-3 rounded-3xl my-3 shadow-lg shadow-[#26baa4] border-b-2 border-[#2f9683]">Download for iOS</a>
+        <a href="#" class="bg-StrongCyan text-white text-lg text-center w-80 p-3 rounded-3xl my-3 shadow-lg shadow-[#26baa4] border-b-2 border-[#2f9683] hover:bg-[#5dcbb8]">Download for iOS</a>
 
         <a href="#" class="bg-LightBlue text-white text-lg text-center w-80 p-3 shadow-lg shadow-[#6173ff] border-b-2 border-[#5b65bd]
-      rounded-3xl my-3">Download for Mac</a>
+      rounded-3xl my-3 hover:bg-[#8896fd]">Download for Mac</a>
       </div>
     </section>
   </main>
 
-  <footer class="bg-[#f4f5f7] w-full pt-10 mt-32 flex flex-col items-center lg:flex-row lg:justify-between lg:px-32 lg:py-10">
-    <div class="flex flex-col items-center lg:flex-row lg:items-center">
-      <img class="w-12" src="./images/logo.svg" alt="logo">
-      <ul class="flex flex-col space-y-4 text-center mt-5 text-DarkGrayishBlue lg:space-y-0 lg:ml-32 lg:grid lg:grid-cols-3 lg:w-full lg:gap-10 lg:text-start lg:text-lg">
-        <li><a href="">FAQs</a></li>
-        <li><a href="">Contact Us</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Press Kit</a></li>
-        <li><a href="">Install Guide</a></li>
-      </ul>
+  <footer class="bg-[#f4f5f7] w-full pt-10 mt-32">
+ <section class=" flex flex-col items-center lg:flex-row lg:justify-between lg:px-32 lg:py-10">
+     <div class="flex flex-col items-center lg:flex-row lg:items-center">
+       <img class="w-12" src="./images/logo.svg" alt="logo">
+       <ul class="flex flex-col space-y-4 text-center mt-5 text-DarkGrayishBlue lg:space-y-0 lg:ml-32 lg:grid lg:grid-cols-3 lg:w-full lg:gap-10 lg:text-start lg:text-lg ">
+         <li class="hover:text-StrongCyan"><a href="">FAQs</a></li>
+         <li class="hover:text-StrongCyan"><a href="">Contact Us</a></li>
+         <li class="hover:text-StrongCyan"><a href="">Privacy Policy</a></li>
+         <li class="hover:text-StrongCyan"><a href="">Press Kit</a></li>
+         <li class="hover:text-StrongCyan"><a href="">Install Guide</a></li>
+       </ul>
+  
+     </div>
+     <div class="mt-8 text-2xl flex space-x-10 text-DarkGrayishBlue ">
+       <a href="#" class="hover:text-StrongCyan"><i class="fa-brands fa-square-facebook"></i></a>
+       <a href="#" class="hover:text-StrongCyan"><i class="fa-brands fa-twitter"></i></a>
+       <a href="#" class="hover:text-StrongCyan"><i class="fa-brands fa-instagram"></i></a>
+     </div>
+ </section>
 
-    </div>
-    <div class="mt-8 text-2xl flex space-x-10 text-DarkGrayishBlue">
-      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-twitter"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-
-    <!-- <div class="mt-10">
-      <p class="attribution">
+    <div class="mt-10 text-center">
+      <p class="*:text-[#3e52a3] *:font-semibold">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Diego Ramírez</a>.
       </p>
-    </div> -->
+    </div>
   </footer>
 
 </body>
